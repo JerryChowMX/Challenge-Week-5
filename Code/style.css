@@ -1,0 +1,73 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: black;
+    color: #333;
+}
+
+header {
+    color: black;
+}
+
+.time-block-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.time-block {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.hour {
+    width: 15%;
+    text-align: center;
+    font-weight: bold;
+    border-right: 1px solid #dee2e6;
+}
+
+.description {
+    width: 70%;
+    border: none;
+    resize: none;
+    padding: 0.5rem;
+}
+
+.saveBtn {
+    width: 15%;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+
+.saveBtn i {
+    pointer-events: none;
+}
+
+/* Color Coding for Time Blocks */
+.past {
+    background-color: #e9ecef;
+}
+
+.present {
+    background-color: #ffc107;
+}
+
+.future {
+    background-color: #77dd77;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .hour, .saveBtn {
+        width: 20%;
+    }
+
+    .description {
+        width: 60%;
+    }
+}
