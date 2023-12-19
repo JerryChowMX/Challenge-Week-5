@@ -36,7 +36,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 ## GitHub Repository
 - https://github.com/JerryChowMX/Challenge-Week-5
-- 
-## Lauched Page
 
+## Lauched Page
+-https://jerrychowmx.github.io/Challenge-Week-5/ 
 
